@@ -31,6 +31,7 @@ export class DealerLogin extends Component {
             password:e.target.value
           })
       }
+<<<<<<< HEAD
       loginSubmit = (e) => 
 
       {
@@ -50,6 +51,11 @@ export class DealerLogin extends Component {
       
       /*{
         e.preventDefault();
+=======
+      loginSubmit = (e) => {
+        //e.preventDefault();
+    
+>>>>>>> 8aaaa216979234fdc675357ae237ab7a57b0ac0f
         let login = {pancardNumber: this.state.pancardNumber,password: this.state.password};
         console.log('login => ' + JSON.stringify(login));
         DealerService.login(login)
@@ -57,7 +63,8 @@ export class DealerLogin extends Component {
         console.log('login => ' + JSON.stringify(login));
         if(this.state.answer === "Login Successfull"){
             alert("LOGIN SUCCESSFUL :)")
-            this.props.history.push('/viewConnections');
+            e.href='//viewConnections'
+           // this.props.history.push('/viewConnections');
         }
     }*/
     /*{
@@ -113,7 +120,7 @@ export class DealerLogin extends Component {
                                         <a href="#" class="ml-auto mb-0 text-sm">Forgot Password?</a>
                                     </div>
                                     <div class="row mb-6 px-3"> <a href="/menu"><button href=""type="submit" onClick={this.loginSubmit} class="btn btn-blue text-center">Login</button> </a></div>
-                                    <div class="row mb-4 px-3"> <small class="font-weight-bold">Don't have an account? <a class="text-danger " href="/staffregister">Register</a></small> </div>
+                                    <div class="row mb-4 px-3"> <small class="font-weight-bold">Don't have an account? <a class="text-danger " href="/dealerregister">Register</a></small> </div>
                                 </div>
                             </div>
                         </div>

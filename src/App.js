@@ -14,7 +14,7 @@ import DealerLogin from './Dealer Module/Component/DealerLogin';
 import DealerUpdate from './Dealer Module/Component/DealerUpdate';
 import StaffComponent from './Staff Module/StaffComponent';
 import StaffRegistration from './Staff Module/StaffRegistration';
-
+import DealerRegistration from './Dealer Module/Component/DealerRegistration'
 function App() {
   return (
     <div className="App">
@@ -31,6 +31,7 @@ function App() {
         <Route path="/menu" component={menu}/>
         <Route path="/viewconnections" component={ViewConnections}/>
         <Route path="/dealerlogin" component={DealerLogin}/>
+        <Route path="/dealerregister" component={DealerRegistration}/>
         <Route path="/changeconnection" component={ChangeConnection}/>
         <Route path="/dealerupdate" component={DealerUpdate}/>
         </Switch>
