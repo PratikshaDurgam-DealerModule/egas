@@ -6,21 +6,21 @@ import HeaderComponent from './component/HeaderComponent';
 import AboutComponent from './component/AboutComponent';
 import AdminComponent from './Admin Module/AdminComponent';
 import CustomerComponent from './CustomerModule/CustomerComponent';
-import DealerComponent from './Dealer Module/Component/DealerComponent';
-import menu1 from './Dealer Module/Component/menu1';
-import ViewConnections from './Dealer Module/Component/ViewConnections';
-import ChangeConnection from './Dealer Module/Component/changeConnection';
-import DealerLogin from './Dealer Module/Component/DealerLogin';
-import ViewBookings from './Dealer Module/Component/ViewBookings';
-import profileDetail from './Dealer Module/Component/profileDetail';
-import DealerUpdate from './Dealer Module/Component/DealerUpdate';
+import DealerComponent from './DealerModule/Component/DealerComponent';
+import menu1 from './DealerModule/Component/menu1';
+import ViewConnections from './DealerModule/Component/ViewConnections';
+import ChangeConnection from './DealerModule/Component/changeConnection';
+import DealerLogin from './DealerModule/Component/DealerLogin';
+import ViewBookings from './DealerModule/Component/ViewBookings';
+import profileDetail from './DealerModule/Component/profileDetail';
+import DealerUpdate from './DealerModule/Component/DealerUpdate';
 import StaffComponent from './Staff Module/StaffComponent';
-import DealerRegistration from './Dealer Module/Component/DealerRegistration'
-import ChangeGasBooking from './Dealer Module/Component/changeGasBooking';
-import ViewStaff from './Dealer Module/Component/ViewStaff';
-import ChangeStaff from './Dealer Module/Component/ChangeStaff';
-import ViewAccessories from './Dealer Module/Component/ViewAccessories';
-import ChangeAccessories from './Dealer Module/Component/ChangeAccessories';
+import DealerRegistration from './DealerModule/Component/DealerRegistration'
+import ChangeGasBooking from './DealerModule/Component/changeGasBooking';
+import ViewStaff from './DealerModule/Component/ViewStaff';
+import ChangeStaff from './DealerModule/Component/ChangeStaff';
+import ViewAccessories from './DealerModule/Component/ViewAccessories';
+import ChangeAccessories from './DealerModule/Component/ChangeAccessories';
 function App() {
   return (
     <div className="App">
